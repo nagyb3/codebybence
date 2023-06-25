@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className='pt-20 pb-20 max-w-5xl mx-auto'>
           <p className='text-slate-900 text-center font-bold text-2xl sm:text-xl lg:text-l dark:text-white'>
-            Project I have built:
+            Projects I have built:
           </p>
           <div className='grid grid-cols-1 gap-3 justify-items-center py-20 md:grid-cols-2'>
             <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
