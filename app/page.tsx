@@ -4,7 +4,7 @@ import { ProjectCard } from '@/components/project-card'
 
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <nav className='border-b border-grey-500 px-5 py-5 flex justify-between items-center'>
         <p>codebybence.com</p>
         <ModeToggle />
