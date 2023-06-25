@@ -16,12 +16,16 @@ export default function Home() {
           </h1>
           <p className='text-center pt-10'>i make some websites...</p>
         </div>
-        <div className='pt-20 pb-20 max-w-5xl mx-auto flex flex-col items-center gap-10'>
+        <div className='pt-20 pb-20 max-w-5xl mx-auto'>
           <p className='text-slate-900 text-center font-bold text-2xl sm:text-xl lg:text-l dark:text-white'>
             Project I have built:
           </p>
-          <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
-          githubLink="https://github.com/nagyb3/social-media-clone" siteLink="https://nagyb.xyz" />
+          <div className='grid grid-cols-2 gap-10 justify-items-center py-20'>
+            <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
+            githubLink="https://github.com/nagyb3/social-media-clone" siteLink="https://nagyb.xyz" />
+            <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
+            githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
+          </div>
         </div>
       </main>
     </div>
