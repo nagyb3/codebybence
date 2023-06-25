@@ -20,7 +20,7 @@ export default function Home() {
           <p className='text-slate-900 text-center font-bold text-2xl sm:text-xl lg:text-l dark:text-white'>
             Project I have built:
           </p>
-          <div className='grid grid-cols-2 gap-10 justify-items-center py-20'>
+          <div className='grid grid-cols-1 gap-3 justify-items-center py-20 md:grid-cols-2'>
             <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
             githubLink="https://github.com/nagyb3/social-media-clone" siteLink="https://nagyb.xyz" />
             <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
