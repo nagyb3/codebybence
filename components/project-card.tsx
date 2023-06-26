@@ -19,10 +19,11 @@ interface MyProps {
 
 export function ProjectCard(props:MyProps) {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-[350px] border-black dark:border-white
+     shadow-[3px_3px_1px_#0F172A] dark:shadow-[3px_3px_1px_#ffffff]">
       <CardHeader>
-        <CardTitle>{props.name}</CardTitle>
-        <CardDescription>{props.description}</CardDescription>
+        <CardTitle className="font-bold tracking-wide">{props.name}</CardTitle>
+        <CardDescription className="dark:text-[#F8FAFC] text-[#0F172A]">{props.description}</CardDescription>
       </CardHeader>
       <CardContent>
       </CardContent>
