@@ -17,7 +17,9 @@ export default function Home() {
           </h1>
           <p className='text-center pt-10 text-xl'>i make some websites...</p>
           <div className='text-center pt-5'>
-            <Button variant="link">My GitHub Profile</Button>
+            <Button variant="link" asChild>
+              <a href="https://github.com" target='_blank'>My GitHub Profile &gt;</a>
+            </Button>
           </div>
         </div>
         <div className='pt-20 pb-20 max-w-5xl mx-auto'>
