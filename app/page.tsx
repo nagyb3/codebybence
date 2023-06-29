@@ -12,7 +12,7 @@ export default function Home() {
       </nav>
       <main>
         <div className='max-w-5xl mx-auto pt-20 pb-20 sm:pt-24 lg:pt-32'>
-          <h1 className="text-slate-900 font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight text-center dark:text-white">
+          <h1 className="text-slate-900 font-extrabold text-4xl sm:text-6xl tracking-tight text-center dark:text-white">
             Hey, it&apos;s me!
           </h1>
           <p className='text-center pt-10 text-xl'>i make some websites...</p>
@@ -22,23 +22,24 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        <div className='pt-20 pb-20 max-w-5xl mx-auto'>
-          <p className='text-slate-900 text-center font-bold text-3xl sm:text-2xl lg:text-xl dark:text-white'>
+        <div className='py-16 max-w-5xl mx-auto'>
+          <p className='text-slate-900 text-center font-bold text-3xl sm:text-4xl dark:text-white'>
             Projects I have built:
           </p>
-          <div className='grid grid-cols-1 gap-3 justify-items-center py-20 md:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-3 justify-items-center py-12 md:grid-cols-2'>
             <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
             githubLink="https://github.com/nagyb3/social-media-clone" siteLink="https://nagyb.xyz" />
             <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
             githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
           </div>
         </div>
-        <div className='max-w-3xl pb-20 mx-auto'>
-          <h2 className='text-3xl font-bold sm:text-2xl lg:text-xl text-center pb-10'>
+        <div className='max-w-3xl pb-20 mx-auto px-10'>
+          <h2 className='font-bold text-3xl sm:text-4xl text-center pb-10'>
             About me:
           </h2>
           <div className='text-justify'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, quam consectetur enim pariatur expedita sint blanditiis dolorum sed. Laboriosam et vero doloribus sequi perspiciatis necessitatibus debitis commodi dolor ex cumque ratione nemo explicabo, voluptatibus eius quam delectus neque. Quam, dolorum.
+            My name is Bence Nagy and i am currently studying Computer Science at the University of Debrecen. In my freetime 
+            I learning webdevelopment. This is website is where I showcase the things i have built so far.
           </div>
         </div>
       </main>
