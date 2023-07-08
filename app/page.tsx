@@ -26,9 +26,15 @@ export default function Home() {
           <p className='text-slate-900 text-center font-bold text-3xl sm:text-4xl dark:text-white'>
             Projects I have built:
           </p>
-          <div className='grid grid-cols-1 gap-3 justify-items-center py-12 md:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-10 justify-items-center py-12 md:grid-cols-2'>
             <ProjectCard name="social-media-clone" description="A social media website built with React and Firebase inspired by Twitter."
             githubLink="https://github.com/nagyb3/social-media-clone" siteLink="https://nagyb.xyz" />
+            <ProjectCard name="spotify-stats" description="A React project made using the Spotify API.
+              After signing in you can view your top tracks and artists in the last 4 weeks, 6 months or all time."
+            githubLink="https://github.com/nagyb3/spotify-stats" siteLink="https://spotify-stats-pearl.vercel.app/" />
+            <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomdoro timer, a white/brown noise genreator
+             and utility to record the time you have spent in the deep work state."
+            githubLink="https://github.com/nagyb3/productivity-timer" siteLink="https://nagyb3.github.io/productivity-timer" />
             <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
             githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
           </div>
