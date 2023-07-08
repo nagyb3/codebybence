@@ -32,8 +32,8 @@ export default function Home() {
             <ProjectCard name="spotify-stats" description="A React project made using the Spotify API.
               After signing in you can view your top tracks and artists in the last 4 weeks, 6 months or all time."
             githubLink="https://github.com/nagyb3/spotify-stats" siteLink="https://spotify-stats-pearl.vercel.app/" />
-            <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomdoro timer, a white/brown noise genreator
-             and utility to record the time you have spent in the deep work state."
+            <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomodoro timer, a white/brown noise generator
+             and a time tracker to record the time you have spent studying/working."
             githubLink="https://github.com/nagyb3/productivity-timer" siteLink="https://nagyb3.github.io/productivity-timer" />
             <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
             githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
