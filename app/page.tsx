@@ -15,10 +15,11 @@ export default function Home() {
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-6xl tracking-tight text-center dark:text-white">
             Hey, it&apos;s me!
           </h1>
-          <p className='text-center pt-10 text-xl'>i make some websites...</p>
+          {/* <p className='text-center pt-10 text-xl'>i make some websites...</p> */}
+          <p className='text-center pt-10 text-xl'>My name is Bence Nagy and I like to code, especially websites..</p>
           <div className='text-center pt-5'>
             <Button variant="link" asChild>
-              <a href="https://github.com" target='_blank'>My GitHub Profile &gt;</a>
+              <a href="https://github.com" className='text-lg' target='_blank'>My GitHub Profile &gt;</a>
             </Button>
           </div>
         </div>
@@ -35,7 +36,9 @@ export default function Home() {
             <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomodoro timer, a white/brown noise generator
              and a time tracker to record the time you have spent studying/working."
             githubLink="https://github.com/nagyb3/productivity-timer" siteLink="https://nagyb3.github.io/productivity-timer" />
-            <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
+            {/* <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
+            githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" /> */}
+            <ProjectCard name="blogapi" description="A NodeJS backend API for a person blog website where users can also signup and leave comments on the posts."
             githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
           </div>
         </div>
