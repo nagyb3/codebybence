@@ -19,7 +19,7 @@ export default function Home() {
           <p className='text-center pt-10 text-xl'>My name is Bence Nagy and I like to code, especially websites..</p>
           <div className='text-center pt-5'>
             <Button variant="link" asChild>
-              <a href="https://github.com" className='text-lg' target='_blank'>My GitHub Profile &gt;</a>
+              <a href="https://github.com" className='text-xl' target='_blank'>My GitHub Profile &gt;</a>
             </Button>
           </div>
         </div>
@@ -33,20 +33,31 @@ export default function Home() {
             <ProjectCard name="spotify-stats" description="A React project made using the Spotify API.
               After signing in you can view your top tracks and artists in the last 4 weeks, 6 months or all time."
             githubLink="https://github.com/nagyb3/spotify-stats" siteLink="https://spotify-stats-pearl.vercel.app/" />
-            <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomodoro timer, a white/brown noise generator
+            {/* <ProjectCard name="productivity-timer" description="A productivity tool featuring a pomodoro timer, a brown noise generator
              and a time tracker to record the time you have spent studying/working."
-            githubLink="https://github.com/nagyb3/productivity-timer" siteLink="https://nagyb3.github.io/productivity-timer" />
-            {/* <ProjectCard name="tic-tac-toe" description="Really simple tic-tac-toe made with some Javascript"
-            githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" /> */}
-            <ProjectCard name="blogapi" description="A NodeJS backend API for a person blog website where users can also signup and leave comments on the posts."
-            githubLink="https://github.com/nagyb3/tic-tac-toe" siteLink="https://nagyb3.github.io/tic-tac-toe/" />
+            githubLink="https://github.com/nagyb3/productivity-timer" siteLink="https://nagyb3.github.io/productivity-timer" /> */}
+            <ProjectCard name="blogapi" description="A NodeJS backend API for a personal blog website where users can also signup and leave comments on the posts."
+            githubLink="https://github.com/nagyb3/blogapi" siteLink="https://blog.codebybence.com" />
+            <ProjectCard name="messenger" description="A fullstack app that lets users message each other. There is also a REST API made in express."
+            githubLink="https://github.com/nagyb3/messenger-frontend" siteLink="https://messenger-frontend-nine.vercel.app/" />
           </div>
         </div>
-        <div className='max-w-3xl pb-20 mx-auto px-10'>
+        <div className='mb-16 w-fit mx-auto'>
+          <h2 className='font-bold text-3xl sm:text-4xl mb-12'>Technologies:</h2>
+          <ul className='list-disc text-lg flex flex-col gap-2'>
+            <li>React JS</li>
+            <li>NodeJS Express</li>
+            <li>MongoDB</li>
+            <li>HTML/CSS</li>
+            <li>TailwindCSS</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div className='max-w-5xl pb-20 mx-auto px-8'>
           <h2 className='font-bold text-3xl sm:text-4xl text-center pb-10'>
             About me:
           </h2>
-          <div className='text-justify'>
+          <div className='text-justify text-xl'>
             My name is Bence Nagy and i am currently studying Computer Science at the University of Debrecen. In my freetime 
             I learning webdevelopment. This is website is where I showcase the things i have built so far.
           </div>
