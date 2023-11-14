@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
-      <nav className="border-b border-grey-500 px-5 py-5 flex justify-between items-center">
+    <div className="overflow-hidden dark:selection:bg-orange-700 selection:bg-orange-300">
+      <nav className="border-b border-[#797878] px-5 py-5 flex justify-between items-center">
         <p>codebybence.com</p>
         <ModeToggle />
       </nav>
@@ -14,13 +14,16 @@ export default function Home() {
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-6xl tracking-tight text-center dark:text-white">
             Hey, it&apos;s me!
           </h1>
-          {/* <p className='text-center pt-10 text-xl'>i make some websites...</p> */}
           <p className="text-center pt-10 text-xl">
             My name is Bence Nagy and I like to code, especially websites..
           </p>
           <div className="text-center pt-5">
             <Button variant="link" asChild>
-              <a href="https://github.com" className="text-xl" target="_blank">
+              <a
+                href="https://github.com/nagyb3"
+                className="text-xl"
+                target="_blank"
+              >
                 My GitHub Profile &gt;
               </a>
             </Button>
