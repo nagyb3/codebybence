@@ -35,9 +35,12 @@ export function ProjectCard(props: MyProps) {
             Go to Github
           </a>
         </Button>
-        <Button asChild>
+        <Button
+          asChild
+          className="font-semibold hover:relative hover:top-[1px]"
+        >
           <a target="_blank" href={props.siteLink}>
-            Go to Site
+            Check it out
           </a>
         </Button>
       </CardFooter>
