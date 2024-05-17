@@ -1,15 +1,34 @@
+"use client";
+
 import { ModeToggle } from "@/components/mode-toggle";
 import { ProjectCard } from "@/components/project-card";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "next-themes";
+import { useEffect } from "react";
 
 export default function Home() {
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    const main = document.querySelector("main");
+    if (main) {
+      if (theme === "dark") {
+        main.classList.remove("bg-[url('../public/gradientOne.svg')]");
+      } else {
+        main.classList.add("bg-[url('../public/gradientOne.svg')]");
+      }
+    }
+  }, [theme]);
+
   return (
-    <div className="overflow-hidden dark:selection:bg-orange-700 selection:bg-orange-300">
-      <nav className="border-b border-[#797878] px-5 py-5 flex justify-between items-center">
+    <div
+      className={`overflow-hidden dark:selection:bg-orange-700 selection:bg-orange-300 bg-cover bg-center min-h-screen text-[#0F172A] dark:text-[#F8FAFC]`}
+    >
+      <nav className="border-b border-[#797878] px-5 py-4 flex justify-between items-center">
         <p>codebybence.com</p>
         <ModeToggle />
       </nav>
-      <main>
+      <main className={"bg-[url('../public/gradientOne.svg')]"}>
         <div className="max-w-5xl mx-auto pt-20 pb-20 sm:pt-24 lg:pt-32">
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-6xl tracking-tight text-center dark:text-white">
             Hey, it&apos;s me!
@@ -60,7 +79,7 @@ export default function Home() {
             have built so far.
           </div>
         </div>
-        <div className="mb-16 w-fit mx-auto">
+        <div className="pb-32 w-fit mx-auto">
           <h2 className="font-bold text-3xl sm:text-4xl mb-12">
             Technologies:
           </h2>
