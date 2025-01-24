@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div
-      className={`overflow-hidden dark:selection:bg-orange-700 selection:bg-orange-300 bg-cover bg-center min-h-screen text-[#0F172A] dark:text-[#F8FAFC]`}
+      className={`font-mono overflow-hidden dark:selection:bg-orange-700 selection:bg-orange-300 bg-cover bg-center min-h-screen text-[#0F172A] dark:text-[#F8FAFC]`}
     >
       <nav className="border-b border-[#797878] px-5 py-4 flex justify-between items-center">
         <p>codebybence.com</p>
@@ -74,22 +74,29 @@ export default function Home() {
           </h2>
           <div className="text-justify text-xl">
             My name is Bence Nagy and i am currently studying Computer Science
-            at the University of Debrecen. In my freetime I learning
-            webdevelopment. This is website is where I showcase the things i
-            have built so far.
+            at the University of Debrecen. I like doing some webdev. This is
+            website is where I showcase a fraction of the things i have built so
+            far.
           </div>
         </div>
-        <div className="pb-32 w-fit mx-auto">
+        <div className="pb-32 w-full mx-auto flex flex-col items-center px-8">
           <h2 className="font-bold text-3xl sm:text-4xl mb-12">
-            Technologies:
+            Technologies I use the most:
           </h2>
-          <ul className="list-disc text-lg flex flex-col gap-2">
-            <li>React</li>
-            <li>Express, NodeJS</li>
-            <li>MongoDB</li>
+          <ul className="list-disc text-lg flex flex-col gap-2 max-w-5xl w-full">
+            <li>React, NextJS</li>
+            <li>Express, NestJS, NodeJS</li>
+            <li>Typescript</li>
+            <li>PostgreSQL, MongoDB</li>
             <li>TailwindCSS</li>
-            <li>HTML/CSS</li>
-            <li>Python</li>
+          </ul>
+        </div>
+        <div className="pb-32 w-full mx-auto flex flex-col items-center px-8">
+          <h2 className="font-bold text-2xl sm:text-3xl mb-12">
+            Other technologies I am trying to use more recently:
+          </h2>
+          <ul className="list-disc text-lg flex flex-col gap-2 max-w-5xl w-full">
+            <li>Java, Spring Boot</li>
           </ul>
         </div>
       </main>
