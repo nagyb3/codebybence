@@ -73,10 +73,13 @@ export default function Home() {
             About me:
           </h2>
           <div className="text-justify text-xl">
-            My name is Bence Nagy and i am currently studying Computer Science
-            at the University of Debrecen. I like doing some webdev. This is
-            website is where I showcase a fraction of the things i have built so
-            far.
+            <p>
+              My name is Bence Nagy and I am currently pursuing a BSc in
+              Computer Science at the University of Debrecen. Occasionally, I
+              like to do some webdev here and there and this is the website
+              where I showcase a fraction of the things I have built so far.
+            </p>
+            <p className="mt-4">Enjoy! &#128513;</p>
           </div>
         </div>
         <div className="pb-32 w-full mx-auto flex flex-col items-center px-8">
@@ -92,14 +95,16 @@ export default function Home() {
           </ul>
         </div>
         <div className="pb-32 w-full mx-auto flex flex-col items-center px-8">
-          <h2 className="font-bold text-2xl sm:text-3xl mb-12">
-            Other technologies I am trying to use more recently:
+          <h2 className="font-bold text-3xl sm:text-4xl mb-12">
+            Some technologies I am trying to use more:
           </h2>
           <ul className="list-disc text-lg flex flex-col gap-2 max-w-5xl w-full">
-            <li>Java, Spring Boot</li>
+            <li>Java</li>
+            <li>Angular</li>
           </ul>
         </div>
       </main>
+      <footer className="flex justify-center py-4">footer.</footer>
     </div>
   );
 }
