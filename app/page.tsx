@@ -74,10 +74,9 @@ export default function Home() {
           </h2>
           <div className="text-justify text-xl">
             <p>
-              My name is Bence Nagy and I am currently pursuing a BSc in
-              Computer Science at the University of Debrecen. Occasionally, I
-              like to do some webdev here and there and this is the website
-              where I showcase a fraction of the things I have built so far.
+              My name is Bence Nagy, and occasionally I like to do some webdev
+              projects here and there. This is my portfolio website where I
+              showcase a fraction of the things I have built so far.
             </p>
             <p className="mt-4">Enjoy! &#128513;</p>
           </div>
