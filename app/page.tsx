@@ -33,10 +33,10 @@ export default function Home() {
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-6xl tracking-tight text-center dark:text-white">
             Hey, it&apos;s me!
           </h1>
-          <p className="text-center pt-10 text-xl">
+          <p className="text-center pt-10 text-lg">
             My name is Bence Nagy and I like to code, especially websites..
           </p>
-          <div className="text-center pt-5">
+          <div className="text-center pt-5 flex gap-x-4 justify-center font-extrabold">
             <Button variant="link" asChild>
               <a
                 href="https://github.com/nagyb3"
@@ -44,6 +44,11 @@ export default function Home() {
                 target="_blank"
               >
                 My GitHub Profile &gt;
+              </a>
+            </Button>
+            <Button variant="link" asChild>
+              <a href="https://blog.codebybence.com" className="text-xl">
+                My Blog &gt;
               </a>
             </Button>
           </div>
