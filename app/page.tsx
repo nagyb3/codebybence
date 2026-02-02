@@ -46,11 +46,11 @@ export default function Home() {
                 My GitHub Profile &gt;
               </a>
             </Button>
-            <Button variant="link" asChild>
+            {/* <Button variant="link" asChild>
               <a href="https://blog.codebybence.com" className="text-xl">
                 My Blog &gt;
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div className="py-16 max-w-5xl mx-auto">
